@@ -1,0 +1,32 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillainbisimwa/restaurant.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "webpack"
+  ],
+  "author": "Guillain BISIMWA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guillainbisimwa/restaurant/issues"
+  },
+  "homepage": "https://github.com/guillainbisimwa/restaurant#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
