@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/guillainbisimwa/restaurant/issues"
   },
-  "homepage": "https://github.com/guillainbisimwa/restaurant#readme"
+  "homepage": "https://github.com/guillainbisimwa/restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
 }
