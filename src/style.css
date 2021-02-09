@@ -12,7 +12,7 @@
 }
 
 .btn-main {
-  border-radius: 25px;
+  border-radius: 30px;
   border-color: transparent !important;
 }
 
@@ -21,5 +21,5 @@
 }
 
 .br-custom {
-  border-radius: 25px 0;
+  border-radius: 45px 0;
 }
