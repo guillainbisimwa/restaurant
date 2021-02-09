@@ -19,3 +19,7 @@
 .btn-main:hover {
   background: #ff9e0dd8;
 }
+
+.br-custom {
+  border-radius: 25px 0;
+}
