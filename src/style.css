@@ -2,3 +2,33 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.bg-main {
+  background: #ff9f0d;
+}
+
+.c-main {
+  color: #ff9f0d;
+}
+
+.btn-main {
+  border-radius: 30px;
+  border-color: transparent !important;
+}
+
+.btn-main:hover {
+  background: #ff9e0dd8;
+}
+
+.br-custom {
+  border-radius: 45px 0;
+}
+
+.main {
+  background: url(../src/img/bg.png) no-repeat top right;
+  background-size: 50%;
+}
+
+body {
+  margin-top: -30px;
+}
