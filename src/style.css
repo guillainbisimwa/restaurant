@@ -32,3 +32,8 @@
 body {
   margin-top: -30px;
 }
+
+.bg-bl {
+  background: url(../src/img/8-min.png) no-repeat bottom left;
+  background-size: 14%;
+}
