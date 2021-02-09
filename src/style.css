@@ -2,3 +2,20 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.bg-main {
+  background: #ff9f0d;
+}
+
+.c-main {
+  color: #ff9f0d;
+}
+
+.btn-main {
+  border-radius: 25px;
+  border-color: transparent !important;
+}
+
+.btn-main:hover {
+  background: #ff9e0dd8;
+}
