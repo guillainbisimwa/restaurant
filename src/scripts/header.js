@@ -1,8 +1,6 @@
 const {  brand, home, menu, about, shopping, contact } = require('./navMenu');
 
 const navBar = () => {
-  const container = document.createElement('div');
-  container.className = 'container main';
 
   const header = document.createElement('header');
 
@@ -43,7 +41,6 @@ const navBar = () => {
 
   header.appendChild(nav);
 
-  //container.appendChild(header);
   return header;
 };
 
