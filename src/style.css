@@ -1,6 +1,5 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
+body {
+  margin-top: -30px;
 }
 
 .bg-main {
@@ -27,10 +26,6 @@
 .main {
   background: url(../src/img/bg-min.png) no-repeat top right;
   background-size: 50%;
-}
-
-body {
-  margin-top: -30px;
 }
 
 .bg-bl {
