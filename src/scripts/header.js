@@ -43,8 +43,8 @@ const navBar = () => {
 
   header.appendChild(nav);
 
-  container.appendChild(header);
-  return container;
+  //container.appendChild(header);
+  return header;
 };
 
 module.exports = navBar();
