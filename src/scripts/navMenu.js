@@ -8,21 +8,21 @@ const navMenu = () => {
     home.textContent('Home');
 
     const menu = document.createElement('a');
-    home.className('nav-link text-dark');
-    home.textContent('Our menu');
+    menu.className('nav-link text-dark');
+    menu.textContent('Our menu');
 
     const about = document.createElement('a');
-    home.className('nav-link text-dark');
-    home.textContent('About us');
+    about.className('nav-link text-dark');
+    about.textContent('About us');
 
     const shopping = document.createElement('li');
-    home.className('fas fa-shopping-cart pt-2 mx-3 fs-2');
+    shopping.className('fas fa-shopping-cart pt-2 mx-3 fs-2');
 
     const contact = document.createElement('a');
-    home.className('nav-link btn btn btn-light btn-main fw-bold shadow');
-    home.textContent('contact');
+    contact.className('nav-link btn btn btn-light btn-main fw-bold shadow');
+    contact.textContent('contact');
   
-    return { brand, menu, about, shopping, contact };
+    return { brand, home, menu, about, shopping, contact };
   };
   
   module.exports = navMenu();
