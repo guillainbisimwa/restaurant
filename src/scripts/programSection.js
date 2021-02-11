@@ -45,4 +45,4 @@ const programSection = () => {
   return progSection;
 };
 
-module.exports = programSection();
+export default programSection;

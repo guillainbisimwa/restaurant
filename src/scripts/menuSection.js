@@ -1,45 +1,54 @@
+import im2 from '../img/2-min.png';
+import im3 from '../img/3-min.png';
+import im4 from '../img/4-min.png';
+import im9 from '../img/9-min.png';
+import im10 from '../img/10-min.png';
+import im17 from '../img/17-min.png';
+import im15 from '../img/15-min.png';
+import im12 from '../img/12-min.png';
+
 const menuSection = () => {
   const foodsSection = document.createElement('section');
   foodsSection.className = 'row mb-2 pb-2';
 
   const imagesList = [
     {
-      src: '../src/img/2-min.png',
+      src: im2,
       details: 'Meat',
       text: 'enjoy a variety of nutritious foods.',
     },
     {
-      src: '../src/img/3-min.png',
+      src: im3,
       details: 'Vegetables',
       text: 'enjoy a variety of nutritious foods.',
     },
     {
-      src: '../src/img/4-min.png',
+      src: im4,
       details: 'Vlegumes/beans',
       text: 'enjoy a variety of nutritious foods.',
     },
     {
-      src: '../src/img/9-min.png',
+      src: im9,
       details: 'beans',
       text: 'enjoy a variety of nutritious foods.',
     },
     {
-      src: '../src/img/10-min.png',
+      src: im10,
       details: 'Meat',
       text: 'enjoy a variety of nutritious foods.',
     },
     {
-      src: '../src/img/17-min.png',
+      src: im17,
       details: 'Vegetables',
       text: 'enjoy a variety of nutritious foods.',
     },
     {
-      src: '../src/img/15-min.png',
+      src: im15,
       details: 'Vlegumes/beans',
       text: 'enjoy a variety of nutritious foods.',
     },
     {
-      src: '../src/img/12-min.png',
+      src: im12,
       details: 'beans',
       text: 'enjoy a variety of nutritious foods.',
     },
@@ -55,7 +64,7 @@ const menuSection = () => {
     const image = document.createElement('img');
     image.className = 'img w-100';
     image.setAttribute('alt', imagesList[i].details);
-    image.setAttribute('src', imagesList[i].src);
+    image.src = imagesList[i].src;
 
     const text = document.createElement('p');
     text.className = 'fw-bold text-center';
@@ -82,4 +91,4 @@ const menuSection = () => {
   return foodsSection;
 };
 
-module.exports = menuSection();
+export default menuSection;

@@ -1,3 +1,5 @@
+import im14 from '../img/14-min.png';
+
 const footerSection = () => {
   const footer = document.createElement('footer');
   footer.className = 'py-5 bg-gray-200 my-5';
@@ -15,7 +17,7 @@ const footerSection = () => {
   image.className = 'footer-brand img-fluid mb-2';
   image.setAttribute('width', 60);
   image.setAttribute('alt', 'Food logo');
-  image.setAttribute('src', '../src/img/14-min.png');
+  image.src = im14;
 
   const slogan = document.createElement('p');
   slogan.className = 'text-gray-700 mb-2';
@@ -126,4 +128,4 @@ const footerSection = () => {
   return footer;
 };
 
-module.exports = footerSection();
+export default footerSection;

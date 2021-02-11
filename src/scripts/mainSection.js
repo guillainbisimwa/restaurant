@@ -1,3 +1,5 @@
+import im2 from '../img/2-min.png';
+
 const mainSection = () => {
   const homeMainSection = document.createElement('section');
   homeMainSection.className = 'row mb-2 pb-2 bg-bl';
@@ -25,7 +27,7 @@ const mainSection = () => {
   const image = document.createElement('img');
   image.className = 'img w-100';
   image.setAttribute('alt', 'Food 1');
-  image.setAttribute('src', '../src/img/2-min.png');
+  image.src = im2;
 
   bookingbtn.appendChild(icon);
 
@@ -41,4 +43,4 @@ const mainSection = () => {
   return homeMainSection;
 };
 
-module.exports = mainSection();
+export default mainSection;

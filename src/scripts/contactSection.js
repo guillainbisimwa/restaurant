@@ -76,4 +76,4 @@ const contactSection = () => {
   return contactUs;
 };
 
-module.exports = contactSection();
+export default contactSection;

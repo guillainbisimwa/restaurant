@@ -1,3 +1,5 @@
+import im11 from '../img/11-min.png';
+
 const aboutSection = () => {
   const aboutUs = document.createElement('section');
   aboutUs.className = 'text-center my-4 mb-5';
@@ -16,7 +18,7 @@ const aboutSection = () => {
   const image = document.createElement('img');
   image.className = 'm-auto w-50';
   image.setAttribute('alt', 'Food Testimony');
-  image.setAttribute('src', '../src/img/11-min.png');
+  image.src = im11;
 
   const text = document.createElement('p');
   text.className = 'small px-5 text-secondary';
@@ -32,4 +34,4 @@ const aboutSection = () => {
   return aboutUs;
 };
 
-module.exports = aboutSection();
+export default aboutSection;

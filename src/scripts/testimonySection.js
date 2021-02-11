@@ -1,3 +1,5 @@
+import im4 from '../img/4-min.png';
+
 const testimonySection = () => {
   const testSection = document.createElement('section');
   testSection.className = 'text-center my-4 mb-5';
@@ -23,7 +25,7 @@ const testimonySection = () => {
   const image = document.createElement('img');
   image.className = 'm-auto w-50';
   image.setAttribute('alt', 'Food Testimony');
-  image.setAttribute('src', '../src/img/4-min.png');
+  image.src = im4;
 
   const text = document.createElement('p');
   text.className = 'small px-5 text-secondary';
@@ -41,4 +43,4 @@ const testimonySection = () => {
   return testSection;
 };
 
-module.exports = testimonySection();
+export default testimonySection;
