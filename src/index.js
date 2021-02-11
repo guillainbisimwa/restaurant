@@ -2,6 +2,7 @@ const header = require('./scripts/header');
 const homeMainSection = require('./scripts/mainSection');
 const foodsSection = require('./scripts/menuSection');
 const aboutUs = require('./scripts/aboutSection');
+const contactUs = require('./scripts/contactSection');
 const progSection = require('./scripts/programSection');
 const testSection = require('./scripts/testimonySection');
 const footer = require('./scripts/footer');
@@ -43,7 +44,15 @@ function aboutPage(){
     mainPage.appendChild(footer);
 }
 
+function contactPage(){
+    mainPage.innerHTML = '';
+    mainPage.appendChild(header);
+    mainPage.appendChild(contactUs);
+    mainPage.appendChild(footer);
+}
+
 home.addEventListener('click', homePage);
 menu.addEventListener('click', menuPage);
 about.addEventListener('click', aboutPage);
+contact.addEventListener('click', contactPage);
 
