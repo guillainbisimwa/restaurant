@@ -6,47 +6,46 @@ const menuSection = () => {
     {
       src: '../src/img/2-min.png',
       details: 'Meat',
-      text: 'enjoy a variety of nutritious foods.'
+      text: 'enjoy a variety of nutritious foods.',
     },
     {
       src: '../src/img/3-min.png',
       details: 'Vegetables',
-      text: 'enjoy a variety of nutritious foods.'
+      text: 'enjoy a variety of nutritious foods.',
     },
     {
       src: '../src/img/4-min.png',
       details: 'Vlegumes/beans',
-      text: 'enjoy a variety of nutritious foods.'
+      text: 'enjoy a variety of nutritious foods.',
     },
     {
       src: '../src/img/9-min.png',
       details: 'beans',
-      text: 'enjoy a variety of nutritious foods.'
+      text: 'enjoy a variety of nutritious foods.',
     },
     {
       src: '../src/img/10-min.png',
       details: 'Meat',
-      text: 'enjoy a variety of nutritious foods.'
+      text: 'enjoy a variety of nutritious foods.',
     },
     {
       src: '../src/img/17-min.png',
       details: 'Vegetables',
-      text: 'enjoy a variety of nutritious foods.'
+      text: 'enjoy a variety of nutritious foods.',
     },
     {
       src: '../src/img/15-min.png',
       details: 'Vlegumes/beans',
-      text: 'enjoy a variety of nutritious foods.'
+      text: 'enjoy a variety of nutritious foods.',
     },
     {
       src: '../src/img/12-min.png',
       details: 'beans',
-      text: 'enjoy a variety of nutritious foods.'
-    }
+      text: 'enjoy a variety of nutritious foods.',
+    },
   ];
 
-  for(let i = 0; i < imagesList.length; i++){
-
+  for (let i = 0; i < imagesList.length; i += 1) {
     const container = document.createElement('div');
     container.className = 'col-xs-12 col-sm-6 col-md-3';
 
@@ -68,7 +67,7 @@ const menuSection = () => {
 
     const button = document.createElement('button');
     button.className = 'btn btn-danger plus text-left';
-    button.textContent = '+';
+    button.textContent = ' + ';
 
     div.appendChild(image);
     div.appendChild(text);
@@ -77,7 +76,7 @@ const menuSection = () => {
 
     container.appendChild(div);
 
-    foodsSection.appendChild(container);      
+    foodsSection.appendChild(container);
   }
 
   return foodsSection;
