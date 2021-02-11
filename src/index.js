@@ -7,7 +7,7 @@ const progSection = require('./scripts/programSection');
 const testSection = require('./scripts/testimonySection');
 const footer = require('./scripts/footer');
 
-const {  brand, home, menu, about, shopping, contact } = require('./scripts/navMenu');
+const { home, menu, about, contact } = require('./scripts/navMenu');
 
 require('./style.css');
 
@@ -55,4 +55,3 @@ home.addEventListener('click', homePage);
 menu.addEventListener('click', menuPage);
 about.addEventListener('click', aboutPage);
 contact.addEventListener('click', contactPage);
-
