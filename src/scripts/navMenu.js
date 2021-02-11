@@ -15,7 +15,7 @@ const navMenu = () => {
     about.className = 'nav-link text-dark';
     about.textContent = 'About us';
 
-    const shopping = document.createElement('li');
+    const shopping = document.createElement('i');
     shopping.className = 'fas fa-shopping-cart pt-2 mx-3 fs-2';
 
     const contact = document.createElement('a');

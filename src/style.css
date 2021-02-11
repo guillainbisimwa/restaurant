@@ -32,3 +32,7 @@ body {
   background: url(../src/img/8-min.png) no-repeat bottom left;
   background-size: 14%;
 }
+
+.nav-link {
+  cursor: pointer;
+}

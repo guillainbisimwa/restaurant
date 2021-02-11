@@ -1,5 +1,6 @@
 const header = require('./scripts/header');
 const homeMainSection = require('./scripts/mainSection');
+const foodsSection = require('./scripts/menuSection');
 const progSection = require('./scripts/programSection');
 const testSection = require('./scripts/testimonySection');
 const footer = require('./scripts/footer');
@@ -11,8 +12,28 @@ require('./style.css');
 const content = document.querySelector('#content');
 content.className = 'container main';
 
-content.appendChild(header);
-content.appendChild(homeMainSection);
-content.appendChild(progSection);
-content.appendChild(testSection);
-content.appendChild(footer);
+const mainPage = document.createElement('div');
+content.appendChild(mainPage);
+homePage();
+
+function homePage(){
+    mainPage.innerHTML = '';
+    mainPage.appendChild(header);
+    mainPage.appendChild(header);
+    mainPage.appendChild(homeMainSection);
+    mainPage.appendChild(progSection);
+    mainPage.appendChild(testSection);
+    mainPage.appendChild(footer);
+}
+
+function menuPage(){
+    mainPage.innerHTML = '';
+    mainPage.appendChild(header);
+    mainPage.appendChild(foodsSection);
+    mainPage.appendChild(testSection);
+    mainPage.appendChild(footer);
+}
+
+home.addEventListener('click', homePage);
+menu.addEventListener('click', menuPage);
+
