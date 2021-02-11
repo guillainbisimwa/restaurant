@@ -23,7 +23,7 @@ const programSection = () => {
     for(let i = 0; i < cssClass.length; i++){
 
       const div = document.createElement('div');
-      div.className = 'col shadow m-lg-5 m-sm-3 pt-3 br-custom';
+      div.className = 'col bg-light shadow m-lg-5 m-sm-3 pt-3 br-custom';
 
       const icon = document.createElement('i');
       icon.className = 'fas c-main fs-2 '+cssClass[i].myClass;
